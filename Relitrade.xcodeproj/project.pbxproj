@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A453769B21D0F13600324D31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A453769A21D0F13600324D31 /* AppDelegate.swift */; };
+		A45376A021D0F13600324D31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A453769E21D0F13600324D31 /* Main.storyboard */; };
+		A45376A321D0F13600324D31 /* Relitrade.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A45376A121D0F13600324D31 /* Relitrade.xcdatamodeld */; };
+		A45376A521D0F14400324D31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A45376A421D0F14400324D31 /* Assets.xcassets */; };
+		A45376A821D0F14500324D31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A45376A621D0F14500324D31 /* LaunchScreen.storyboard */; };
+		A45376B321D0F14500324D31 /* RelitradeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45376B221D0F14500324D31 /* RelitradeTests.swift */; };
+		A45376BE21D0F14500324D31 /* RelitradeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45376BD21D0F14500324D31 /* RelitradeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A45376AF21D0F14500324D31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A453768F21D0F13600324D31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A453769621D0F13600324D31;
+			remoteInfo = Relitrade;
+		};
+		A45376BA21D0F14500324D31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A453768F21D0F13600324D31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A453769621D0F13600324D31;
+			remoteInfo = Relitrade;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A453769721D0F13600324D31 /* Relitrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Relitrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A453769A21D0F13600324D31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A453769F21D0F13600324D31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A45376A221D0F13600324D31 /* Relitrade.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Relitrade.xcdatamodel; sourceTree = "<group>"; };
+		A45376A421D0F14400324D31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A45376A721D0F14500324D31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A45376A921D0F14500324D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A45376AE21D0F14500324D31 /* RelitradeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RelitradeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A45376B221D0F14500324D31 /* RelitradeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelitradeTests.swift; sourceTree = "<group>"; };
+		A45376B421D0F14500324D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A45376B921D0F14500324D31 /* RelitradeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RelitradeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A45376BD21D0F14500324D31 /* RelitradeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelitradeUITests.swift; sourceTree = "<group>"; };
+		A45376BF21D0F14500324D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A453769421D0F13600324D31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45376AB21D0F14500324D31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45376B621D0F14500324D31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A453768E21D0F13600324D31 = {
+			isa = PBXGroup;
+			children = (
+				A453769921D0F13600324D31 /* Relitrade */,
+				A45376B121D0F14500324D31 /* RelitradeTests */,
+				A45376BC21D0F14500324D31 /* RelitradeUITests */,
+				A453769821D0F13600324D31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A453769821D0F13600324D31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A453769721D0F13600324D31 /* Relitrade.app */,
+				A45376AE21D0F14500324D31 /* RelitradeTests.xctest */,
+				A45376B921D0F14500324D31 /* RelitradeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A453769921D0F13600324D31 /* Relitrade */ = {
+			isa = PBXGroup;
+			children = (
+				A45376CB21D0F15100324D31 /* New Group */,
+				A453769A21D0F13600324D31 /* AppDelegate.swift */,
+				A453769E21D0F13600324D31 /* Main.storyboard */,
+				A45376A421D0F14400324D31 /* Assets.xcassets */,
+				A45376A621D0F14500324D31 /* LaunchScreen.storyboard */,
+				A45376A921D0F14500324D31 /* Info.plist */,
+				A45376A121D0F13600324D31 /* Relitrade.xcdatamodeld */,
+			);
+			path = Relitrade;
+			sourceTree = "<group>";
+		};
+		A45376B121D0F14500324D31 /* RelitradeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A45376B221D0F14500324D31 /* RelitradeTests.swift */,
+				A45376B421D0F14500324D31 /* Info.plist */,
+			);
+			path = RelitradeTests;
+			sourceTree = "<group>";
+		};
+		A45376BC21D0F14500324D31 /* RelitradeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A45376BD21D0F14500324D31 /* RelitradeUITests.swift */,
+				A45376BF21D0F14500324D31 /* Info.plist */,
+			);
+			path = RelitradeUITests;
+			sourceTree = "<group>";
+		};
+		A45376CB21D0F15100324D31 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A453769621D0F13600324D31 /* Relitrade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A45376C221D0F14500324D31 /* Build configuration list for PBXNativeTarget "Relitrade" */;
+			buildPhases = (
+				A453769321D0F13600324D31 /* Sources */,
+				A453769421D0F13600324D31 /* Frameworks */,
+				A453769521D0F13600324D31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Relitrade;
+			productName = Relitrade;
+			productReference = A453769721D0F13600324D31 /* Relitrade.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A45376AD21D0F14500324D31 /* RelitradeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A45376C521D0F14500324D31 /* Build configuration list for PBXNativeTarget "RelitradeTests" */;
+			buildPhases = (
+				A45376AA21D0F14500324D31 /* Sources */,
+				A45376AB21D0F14500324D31 /* Frameworks */,
+				A45376AC21D0F14500324D31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A45376B021D0F14500324D31 /* PBXTargetDependency */,
+			);
+			name = RelitradeTests;
+			productName = RelitradeTests;
+			productReference = A45376AE21D0F14500324D31 /* RelitradeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A45376B821D0F14500324D31 /* RelitradeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A45376C821D0F14500324D31 /* Build configuration list for PBXNativeTarget "RelitradeUITests" */;
+			buildPhases = (
+				A45376B521D0F14500324D31 /* Sources */,
+				A45376B621D0F14500324D31 /* Frameworks */,
+				A45376B721D0F14500324D31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A45376BB21D0F14500324D31 /* PBXTargetDependency */,
+			);
+			name = RelitradeUITests;
+			productName = RelitradeUITests;
+			productReference = A45376B921D0F14500324D31 /* RelitradeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A453768F21D0F13600324D31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = investwell;
+				TargetAttributes = {
+					A453769621D0F13600324D31 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A45376AD21D0F14500324D31 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A453769621D0F13600324D31;
+					};
+					A45376B821D0F14500324D31 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A453769621D0F13600324D31;
+					};
+				};
+			};
+			buildConfigurationList = A453769221D0F13600324D31 /* Build configuration list for PBXProject "Relitrade" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A453768E21D0F13600324D31;
+			productRefGroup = A453769821D0F13600324D31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A453769621D0F13600324D31 /* Relitrade */,
+				A45376AD21D0F14500324D31 /* RelitradeTests */,
+				A45376B821D0F14500324D31 /* RelitradeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A453769521D0F13600324D31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45376A821D0F14500324D31 /* LaunchScreen.storyboard in Resources */,
+				A45376A521D0F14400324D31 /* Assets.xcassets in Resources */,
+				A45376A021D0F13600324D31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45376AC21D0F14500324D31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45376B721D0F14500324D31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A453769321D0F13600324D31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45376A321D0F13600324D31 /* Relitrade.xcdatamodeld in Sources */,
+				A453769B21D0F13600324D31 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45376AA21D0F14500324D31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45376B321D0F14500324D31 /* RelitradeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45376B521D0F14500324D31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45376BE21D0F14500324D31 /* RelitradeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A45376B021D0F14500324D31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A453769621D0F13600324D31 /* Relitrade */;
+			targetProxy = A45376AF21D0F14500324D31 /* PBXContainerItemProxy */;
+		};
+		A45376BB21D0F14500324D31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A453769621D0F13600324D31 /* Relitrade */;
+			targetProxy = A45376BA21D0F14500324D31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A453769E21D0F13600324D31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A453769F21D0F13600324D31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A45376A621D0F14500324D31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A45376A721D0F14500324D31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A45376C021D0F14500324D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A45376C121D0F14500324D31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A45376C321D0F14500324D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Relitrade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Relitrade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A45376C421D0F14500324D31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Relitrade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Relitrade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A45376C621D0F14500324D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RelitradeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RelitradeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Relitrade.app/Relitrade";
+			};
+			name = Debug;
+		};
+		A45376C721D0F14500324D31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RelitradeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RelitradeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Relitrade.app/Relitrade";
+			};
+			name = Release;
+		};
+		A45376C921D0F14500324D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RelitradeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RelitradeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Relitrade;
+			};
+			name = Debug;
+		};
+		A45376CA21D0F14500324D31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RelitradeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RelitradeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Relitrade;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A453769221D0F13600324D31 /* Build configuration list for PBXProject "Relitrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45376C021D0F14500324D31 /* Debug */,
+				A45376C121D0F14500324D31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A45376C221D0F14500324D31 /* Build configuration list for PBXNativeTarget "Relitrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45376C321D0F14500324D31 /* Debug */,
+				A45376C421D0F14500324D31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A45376C521D0F14500324D31 /* Build configuration list for PBXNativeTarget "RelitradeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45376C621D0F14500324D31 /* Debug */,
+				A45376C721D0F14500324D31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A45376C821D0F14500324D31 /* Build configuration list for PBXNativeTarget "RelitradeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45376C921D0F14500324D31 /* Debug */,
+				A45376CA21D0F14500324D31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A45376A121D0F13600324D31 /* Relitrade.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A45376A221D0F13600324D31 /* Relitrade.xcdatamodel */,
+			);
+			currentVersion = A45376A221D0F13600324D31 /* Relitrade.xcdatamodel */;
+			path = Relitrade.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A453768F21D0F13600324D31 /* Project object */;
+}
