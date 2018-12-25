@@ -20,6 +20,11 @@ class ToolsController: UICollectionViewController {
         presenter?.updateView()
     }
     
+    @IBAction func handlBack(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+    }
+    
+    
 }
 
 extension ToolsController{

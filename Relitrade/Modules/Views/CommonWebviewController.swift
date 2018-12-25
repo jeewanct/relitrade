@@ -13,9 +13,11 @@ class CommonWebviewController: UIViewController {
     
     var presenter: ViewToPresenterProtocol?
     var webType: HomeOptionsEnum?
-   
+    var backTitle: String?
+    
     @IBOutlet weak var progressView: UIProgressView!
     @IBOutlet weak var contentWeb: WKWebView!
+    @IBOutlet weak var backButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,11 +25,17 @@ class CommonWebviewController: UIViewController {
        
     }
     
+    @IBAction func handleBack(_ sender: Any) {
+        navigationController?.popViewController(animated: true)
+    }
 }
 
 extension CommonWebviewController{
     
     func getAppropiateWebPage(){
+        
+        backButton.setTitle(backTitle, for: .normal)
+        
         
         guard let webPage = webType else{
             return

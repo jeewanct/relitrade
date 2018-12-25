@@ -22,6 +22,7 @@ class HomeController: UIViewController {
         super.viewDidLoad()
         setup()
         presenter?.updateView()
+        getData()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -121,11 +122,17 @@ extension HomeController: UICollectionViewDelegate{
                 let webView = CommonWebRoute.createModule() as? CommonWebviewController
                 switch indexPath.item{
                 case 1: webView?.webType = HomeOptionsEnum.topSchemes
+                        webView?.backTitle = HomeOptionsEnum.topSchemes.rawValue
                 case 2: webView?.webType = HomeOptionsEnum.fundPicks
+                        webView?.backTitle = HomeOptionsEnum.fundPicks.rawValue
                 case 4: webView?.webType = HomeOptionsEnum.nfo
+                        webView?.backTitle = HomeOptionsEnum.nfo.rawValue
                 case 5: webView?.webType = HomeOptionsEnum.latestNav
+                        webView?.backTitle = HomeOptionsEnum.latestNav.rawValue
                 case 6: webView?.webType = HomeOptionsEnum.knowledgeArea
-                default: webView?.webType = HomeOptionsEnum.locateUs
+                        webView?.backTitle = HomeOptionsEnum.knowledgeArea.rawValue
+                default: webView?.webType = HomeOptionsEnum.about
+                        webView?.backTitle = HomeOptionsEnum.about.rawValue
                 }
                 navigationController?.pushViewController(webView ?? UIViewController(), animated: true)
             case 3:
@@ -214,3 +221,20 @@ extension HomeController: PresenterToViewProtocol {
     
 }
 
+
+extension HomeController{
+    
+    func getData(){
+        let data = XMLParser(contentsOf: URL(string: "http://ws.my-portfolio.in/IWService.asmx?op=GetIndex")!)
+        data?.delegate = self
+    }
+    
+    
+}
+
+extension HomeController: XMLParserDelegate{
+    
+    func parser(_ parser: XMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String : String] = [:]) {
+        
+    }
+}

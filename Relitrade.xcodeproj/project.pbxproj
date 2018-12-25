@@ -10,6 +10,10 @@
 		05FEF36C21D13E7E0061DCCE /* LocateUsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FEF36B21D13E7E0061DCCE /* LocateUsCell.swift */; };
 		05FEF36E21D13FCC0061DCCE /* LocateUsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FEF36D21D13FCC0061DCCE /* LocateUsEntity.swift */; };
 		05FEF37021D1C8FE0061DCCE /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FEF36F21D1C8FE0061DCCE /* Network.swift */; };
+		05FEF37221D288560061DCCE /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FEF37121D288560061DCCE /* RegisterController.swift */; };
+		05FEF37421D288AA0061DCCE /* RegisterRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FEF37321D288AA0061DCCE /* RegisterRoute.swift */; };
+		05FEF37621D288F50061DCCE /* RegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FEF37521D288F50061DCCE /* RegisterPresenter.swift */; };
+		05FEF37821D289220061DCCE /* RegisterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FEF37721D289220061DCCE /* RegisterInteractor.swift */; };
 		48CF1479E256A832146052BE /* Pods_Relitrade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3647617A4427BA1F0A13FF49 /* Pods_Relitrade.framework */; };
 		5756D76C37B786F3BC6063AB /* Pods_RelitradeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8147BD0259267E9733E9D278 /* Pods_RelitradeUITests.framework */; };
 		79D93265F1D34EF88D753FF1 /* Pods_RelitradeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A34D21CB5795C689CE9382F /* Pods_RelitradeTests.framework */; };
@@ -84,6 +88,10 @@
 		05FEF36B21D13E7E0061DCCE /* LocateUsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocateUsCell.swift; sourceTree = "<group>"; };
 		05FEF36D21D13FCC0061DCCE /* LocateUsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocateUsEntity.swift; sourceTree = "<group>"; };
 		05FEF36F21D1C8FE0061DCCE /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		05FEF37121D288560061DCCE /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		05FEF37321D288AA0061DCCE /* RegisterRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRoute.swift; sourceTree = "<group>"; };
+		05FEF37521D288F50061DCCE /* RegisterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPresenter.swift; sourceTree = "<group>"; };
+		05FEF37721D289220061DCCE /* RegisterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterInteractor.swift; sourceTree = "<group>"; };
 		3647617A4427BA1F0A13FF49 /* Pods_Relitrade.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Relitrade.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4562FF3040C940350D93F0CE /* Pods-Relitrade.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Relitrade.release.xcconfig"; path = "Pods/Target Support Files/Pods-Relitrade/Pods-Relitrade.release.xcconfig"; sourceTree = "<group>"; };
 		5886DEF7180E2D3F9B4BFB2B /* Pods-RelitradeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RelitradeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RelitradeUITests/Pods-RelitradeUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -278,6 +286,7 @@
 				A45376F021D0F29C00324D31 /* LocateUsInteractor.swift */,
 				A45376FB21D0F58600324D31 /* CommonWebInteractor.swift */,
 				A4CBCB2B21D22A8C00EF1C7B /* ForgotPassInteractor.swift */,
+				05FEF37721D289220061DCCE /* RegisterInteractor.swift */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
@@ -302,6 +311,7 @@
 				A45376E821D0F27000324D31 /* LocateUsPresenter.swift */,
 				A45376F921D0F56700324D31 /* CommonWebPresenter.swift */,
 				A4CBCB2921D22A6F00EF1C7B /* ForgotPassPresenter.swift */,
+				05FEF37521D288F50061DCCE /* RegisterPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -315,6 +325,7 @@
 				A45376E021D0F23600324D31 /* LocateUsRoute.swift */,
 				A45376F721D0F50E00324D31 /* CommonWebRoute.swift */,
 				A4CBCB2721D22A4800EF1C7B /* ForgotPassRoutes.swift */,
+				05FEF37321D288AA0061DCCE /* RegisterRoute.swift */,
 			);
 			path = Routes;
 			sourceTree = "<group>";
@@ -328,6 +339,7 @@
 				A45376D821D0F20000324D31 /* LocateUsController.swift */,
 				A45376F521D0F4EB00324D31 /* CommonWebviewController.swift */,
 				A4CBCB2521D22A3300EF1C7B /* ForgotPassController.swift */,
+				05FEF37121D288560061DCCE /* RegisterController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -607,6 +619,7 @@
 				A45376F121D0F29C00324D31 /* LocateUsInteractor.swift in Sources */,
 				A453770921D0FCE800324D31 /* CardView.swift in Sources */,
 				A45376FC21D0F58600324D31 /* CommonWebInteractor.swift in Sources */,
+				05FEF37621D288F50061DCCE /* RegisterPresenter.swift in Sources */,
 				A45376D521D0F1BB00324D31 /* PortfoloioLoginController.swift in Sources */,
 				A45376E521D0F25900324D31 /* ProtfolioPresenter.swift in Sources */,
 				A45376A321D0F13600324D31 /* Relitrade.xcdatamodeld in Sources */,
@@ -639,12 +652,15 @@
 				A45376E121D0F23600324D31 /* LocateUsRoute.swift in Sources */,
 				A4CBCB2C21D22A8C00EF1C7B /* ForgotPassInteractor.swift in Sources */,
 				A453770F21D10A5F00324D31 /* HomeHeader.swift in Sources */,
+				05FEF37821D289220061DCCE /* RegisterInteractor.swift in Sources */,
 				05FEF36E21D13FCC0061DCCE /* LocateUsEntity.swift in Sources */,
 				A45376DF21D0F22800324D31 /* ToolsRoute.swift in Sources */,
 				A45376ED21D0F28900324D31 /* PortfolioInteractor.swift in Sources */,
+				05FEF37221D288560061DCCE /* RegisterController.swift in Sources */,
 				A45376D921D0F20000324D31 /* LocateUsController.swift in Sources */,
 				A4CBCB2621D22A3300EF1C7B /* ForgotPassController.swift in Sources */,
 				A45376E321D0F24900324D31 /* HomePresenter.swift in Sources */,
+				05FEF37421D288AA0061DCCE /* RegisterRoute.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

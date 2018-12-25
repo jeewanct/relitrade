@@ -19,7 +19,7 @@ class PortfolioLoginController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+        
     }
     
     @IBAction func showPassword(_ sender: Any) {
@@ -51,7 +51,10 @@ class PortfolioLoginController: UIViewController {
     }
     
     @IBAction func handleSignUp(_ sender: Any) {
-    
+        
+        let register = RegisterRoute.createModule()
+        navigationController?.pushViewController(register, animated: true)
+        
     }
     
     @IBAction func handleForgotPass(_ sender: Any) {
@@ -62,6 +65,11 @@ class PortfolioLoginController: UIViewController {
         present(forgotPass, animated: true, completion: nil)
         //pushViewControlleforgotPassr(forgotPass, animated: true)
     
+    }
+    
+    
+    @IBAction func handleBack(_ sender: Any) {
+        navigationController?.popViewController(animated: true)
     }
     
 }

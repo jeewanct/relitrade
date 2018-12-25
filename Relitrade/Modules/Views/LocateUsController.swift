@@ -25,6 +25,9 @@ class LocateUsController: UIViewController {
       
     }
     
+    @IBAction func handleBack(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+    }
 }
 
 extension LocateUsController: UITableViewDataSource{
