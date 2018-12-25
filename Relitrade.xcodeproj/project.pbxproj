@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05FEF36C21D13E7E0061DCCE /* LocateUsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FEF36B21D13E7E0061DCCE /* LocateUsCell.swift */; };
+		05FEF36E21D13FCC0061DCCE /* LocateUsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FEF36D21D13FCC0061DCCE /* LocateUsEntity.swift */; };
+		05FEF37021D1C8FE0061DCCE /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FEF36F21D1C8FE0061DCCE /* Network.swift */; };
+		48CF1479E256A832146052BE /* Pods_Relitrade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3647617A4427BA1F0A13FF49 /* Pods_Relitrade.framework */; };
+		5756D76C37B786F3BC6063AB /* Pods_RelitradeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8147BD0259267E9733E9D278 /* Pods_RelitradeUITests.framework */; };
+		79D93265F1D34EF88D753FF1 /* Pods_RelitradeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A34D21CB5795C689CE9382F /* Pods_RelitradeTests.framework */; };
 		A453769B21D0F13600324D31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A453769A21D0F13600324D31 /* AppDelegate.swift */; };
 		A45376A021D0F13600324D31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A453769E21D0F13600324D31 /* Main.storyboard */; };
 		A45376A321D0F13600324D31 /* Relitrade.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A45376A121D0F13600324D31 /* Relitrade.xcdatamodeld */; };
@@ -14,6 +20,47 @@
 		A45376A821D0F14500324D31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A45376A621D0F14500324D31 /* LaunchScreen.storyboard */; };
 		A45376B321D0F14500324D31 /* RelitradeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45376B221D0F14500324D31 /* RelitradeTests.swift */; };
 		A45376BE21D0F14500324D31 /* RelitradeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45376BD21D0F14500324D31 /* RelitradeUITests.swift */; };
+		A45376D321D0F1A900324D31 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45376D221D0F1A900324D31 /* HomeController.swift */; };
+		A45376D521D0F1BB00324D31 /* PortfoloioLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45376D421D0F1BB00324D31 /* PortfoloioLoginController.swift */; };
+		A45376D721D0F1E500324D31 /* ToolsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45376D621D0F1E500324D31 /* ToolsController.swift */; };
+		A45376D921D0F20000324D31 /* LocateUsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45376D821D0F20000324D31 /* LocateUsController.swift */; };
+		A45376DB21D0F20F00324D31 /* HomeRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45376DA21D0F20F00324D31 /* HomeRoute.swift */; };
+		A45376DD21D0F21F00324D31 /* PortofolioRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45376DC21D0F21F00324D31 /* PortofolioRoute.swift */; };
+		A45376DF21D0F22800324D31 /* ToolsRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45376DE21D0F22800324D31 /* ToolsRoute.swift */; };
+		A45376E121D0F23600324D31 /* LocateUsRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45376E021D0F23600324D31 /* LocateUsRoute.swift */; };
+		A45376E321D0F24900324D31 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45376E221D0F24900324D31 /* HomePresenter.swift */; };
+		A45376E521D0F25900324D31 /* ProtfolioPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45376E421D0F25900324D31 /* ProtfolioPresenter.swift */; };
+		A45376E721D0F26500324D31 /* ToolPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45376E621D0F26500324D31 /* ToolPresenter.swift */; };
+		A45376E921D0F27000324D31 /* LocateUsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45376E821D0F27000324D31 /* LocateUsPresenter.swift */; };
+		A45376EB21D0F27D00324D31 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45376EA21D0F27D00324D31 /* HomeInteractor.swift */; };
+		A45376ED21D0F28900324D31 /* PortfolioInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45376EC21D0F28900324D31 /* PortfolioInteractor.swift */; };
+		A45376EF21D0F29200324D31 /* ToolsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45376EE21D0F29200324D31 /* ToolsInteractor.swift */; };
+		A45376F121D0F29C00324D31 /* LocateUsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45376F021D0F29C00324D31 /* LocateUsInteractor.swift */; };
+		A45376F421D0F2AD00324D31 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45376F321D0F2AD00324D31 /* Protocols.swift */; };
+		A45376F621D0F4EB00324D31 /* CommonWebviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45376F521D0F4EB00324D31 /* CommonWebviewController.swift */; };
+		A45376F821D0F50E00324D31 /* CommonWebRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45376F721D0F50E00324D31 /* CommonWebRoute.swift */; };
+		A45376FA21D0F56700324D31 /* CommonWebPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45376F921D0F56700324D31 /* CommonWebPresenter.swift */; };
+		A45376FC21D0F58600324D31 /* CommonWebInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45376FB21D0F58600324D31 /* CommonWebInteractor.swift */; };
+		A45376FE21D0F7C100324D31 /* ConnectUsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A45376FD21D0F7C100324D31 /* ConnectUsCell.xib */; };
+		A453770021D0F91E00324D31 /* ConnectUsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45376FF21D0F91E00324D31 /* ConnectUsCell.swift */; };
+		A453770221D0FAD900324D31 /* HomeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A453770121D0FAD900324D31 /* HomeEntity.swift */; };
+		A453770421D0FC6400324D31 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A453770321D0FC6400324D31 /* HomeCell.swift */; };
+		A453770621D0FC7600324D31 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A453770521D0FC7600324D31 /* HomeCell.xib */; };
+		A453770921D0FCE800324D31 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A453770821D0FCE800324D31 /* CardView.swift */; };
+		A453770B21D0FEA600324D31 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = A453770A21D0FEA600324D31 /* Enums.swift */; };
+		A453770D21D1085A00324D31 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A453770C21D1085A00324D31 /* Extensions.swift */; };
+		A453770F21D10A5F00324D31 /* HomeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A453770E21D10A5F00324D31 /* HomeHeader.swift */; };
+		A453771121D10D2B00324D31 /* HomeHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = A453771021D10D2B00324D31 /* HomeHeader.xib */; };
+		A453771321D10E8200324D31 /* HeaderShareCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A453771221D10E8200324D31 /* HeaderShareCell.xib */; };
+		A453771521D10E9200324D31 /* HeaderShareCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A453771421D10E9200324D31 /* HeaderShareCell.swift */; };
+		A4CBCB2221D1F43000EF1C7B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CBCB2121D1F43000EF1C7B /* Constants.swift */; };
+		A4CBCB2421D20ACC00EF1C7B /* PortfolioEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CBCB2321D20ACC00EF1C7B /* PortfolioEntity.swift */; };
+		A4CBCB2621D22A3300EF1C7B /* ForgotPassController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CBCB2521D22A3300EF1C7B /* ForgotPassController.swift */; };
+		A4CBCB2821D22A4800EF1C7B /* ForgotPassRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CBCB2721D22A4800EF1C7B /* ForgotPassRoutes.swift */; };
+		A4CBCB2A21D22A6F00EF1C7B /* ForgotPassPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CBCB2921D22A6F00EF1C7B /* ForgotPassPresenter.swift */; };
+		A4CBCB2C21D22A8C00EF1C7B /* ForgotPassInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CBCB2B21D22A8C00EF1C7B /* ForgotPassInteractor.swift */; };
+		A4CBCB2E21D23CB000EF1C7B /* ForgotPassEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CBCB2D21D23CB000EF1C7B /* ForgotPassEntity.swift */; };
+		A4CBCB3021D2566A00EF1C7B /* NavigationBarImage.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4CBCB2F21D2566A00EF1C7B /* NavigationBarImage.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +81,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05FEF36B21D13E7E0061DCCE /* LocateUsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocateUsCell.swift; sourceTree = "<group>"; };
+		05FEF36D21D13FCC0061DCCE /* LocateUsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocateUsEntity.swift; sourceTree = "<group>"; };
+		05FEF36F21D1C8FE0061DCCE /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		3647617A4427BA1F0A13FF49 /* Pods_Relitrade.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Relitrade.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4562FF3040C940350D93F0CE /* Pods-Relitrade.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Relitrade.release.xcconfig"; path = "Pods/Target Support Files/Pods-Relitrade/Pods-Relitrade.release.xcconfig"; sourceTree = "<group>"; };
+		5886DEF7180E2D3F9B4BFB2B /* Pods-RelitradeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RelitradeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RelitradeUITests/Pods-RelitradeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8147BD0259267E9733E9D278 /* Pods_RelitradeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RelitradeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A34D21CB5795C689CE9382F /* Pods_RelitradeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RelitradeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BDAD7D0FA2503166F519C4C /* Pods-RelitradeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RelitradeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RelitradeUITests/Pods-RelitradeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A453769721D0F13600324D31 /* Relitrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Relitrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A453769A21D0F13600324D31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A453769F21D0F13600324D31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -47,6 +103,50 @@
 		A45376B921D0F14500324D31 /* RelitradeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RelitradeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A45376BD21D0F14500324D31 /* RelitradeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelitradeUITests.swift; sourceTree = "<group>"; };
 		A45376BF21D0F14500324D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A45376D221D0F1A900324D31 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		A45376D421D0F1BB00324D31 /* PortfoloioLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfoloioLoginController.swift; sourceTree = "<group>"; };
+		A45376D621D0F1E500324D31 /* ToolsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsController.swift; sourceTree = "<group>"; };
+		A45376D821D0F20000324D31 /* LocateUsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocateUsController.swift; sourceTree = "<group>"; };
+		A45376DA21D0F20F00324D31 /* HomeRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRoute.swift; sourceTree = "<group>"; };
+		A45376DC21D0F21F00324D31 /* PortofolioRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortofolioRoute.swift; sourceTree = "<group>"; };
+		A45376DE21D0F22800324D31 /* ToolsRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsRoute.swift; sourceTree = "<group>"; };
+		A45376E021D0F23600324D31 /* LocateUsRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocateUsRoute.swift; sourceTree = "<group>"; };
+		A45376E221D0F24900324D31 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		A45376E421D0F25900324D31 /* ProtfolioPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtfolioPresenter.swift; sourceTree = "<group>"; };
+		A45376E621D0F26500324D31 /* ToolPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolPresenter.swift; sourceTree = "<group>"; };
+		A45376E821D0F27000324D31 /* LocateUsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocateUsPresenter.swift; sourceTree = "<group>"; };
+		A45376EA21D0F27D00324D31 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		A45376EC21D0F28900324D31 /* PortfolioInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioInteractor.swift; sourceTree = "<group>"; };
+		A45376EE21D0F29200324D31 /* ToolsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsInteractor.swift; sourceTree = "<group>"; };
+		A45376F021D0F29C00324D31 /* LocateUsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocateUsInteractor.swift; sourceTree = "<group>"; };
+		A45376F321D0F2AD00324D31 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		A45376F521D0F4EB00324D31 /* CommonWebviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonWebviewController.swift; sourceTree = "<group>"; };
+		A45376F721D0F50E00324D31 /* CommonWebRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonWebRoute.swift; sourceTree = "<group>"; };
+		A45376F921D0F56700324D31 /* CommonWebPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonWebPresenter.swift; sourceTree = "<group>"; };
+		A45376FB21D0F58600324D31 /* CommonWebInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonWebInteractor.swift; sourceTree = "<group>"; };
+		A45376FD21D0F7C100324D31 /* ConnectUsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConnectUsCell.xib; sourceTree = "<group>"; };
+		A45376FF21D0F91E00324D31 /* ConnectUsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectUsCell.swift; sourceTree = "<group>"; };
+		A453770121D0FAD900324D31 /* HomeEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeEntity.swift; sourceTree = "<group>"; };
+		A453770321D0FC6400324D31 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		A453770521D0FC7600324D31 /* HomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		A453770821D0FCE800324D31 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A453770A21D0FEA600324D31 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		A453770C21D1085A00324D31 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A453770E21D10A5F00324D31 /* HomeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeader.swift; sourceTree = "<group>"; };
+		A453771021D10D2B00324D31 /* HomeHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeHeader.xib; sourceTree = "<group>"; };
+		A453771221D10E8200324D31 /* HeaderShareCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderShareCell.xib; sourceTree = "<group>"; };
+		A453771421D10E9200324D31 /* HeaderShareCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderShareCell.swift; sourceTree = "<group>"; };
+		A4CBCB2121D1F43000EF1C7B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A4CBCB2321D20ACC00EF1C7B /* PortfolioEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioEntity.swift; sourceTree = "<group>"; };
+		A4CBCB2521D22A3300EF1C7B /* ForgotPassController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassController.swift; sourceTree = "<group>"; };
+		A4CBCB2721D22A4800EF1C7B /* ForgotPassRoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassRoutes.swift; sourceTree = "<group>"; };
+		A4CBCB2921D22A6F00EF1C7B /* ForgotPassPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassPresenter.swift; sourceTree = "<group>"; };
+		A4CBCB2B21D22A8C00EF1C7B /* ForgotPassInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassInteractor.swift; sourceTree = "<group>"; };
+		A4CBCB2D21D23CB000EF1C7B /* ForgotPassEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassEntity.swift; sourceTree = "<group>"; };
+		A4CBCB2F21D2566A00EF1C7B /* NavigationBarImage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NavigationBarImage.xib; sourceTree = "<group>"; };
+		AD3601446C6A6F41A71FD066 /* Pods-RelitradeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RelitradeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RelitradeTests/Pods-RelitradeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E7E98D63354DF09632CCA733 /* Pods-RelitradeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RelitradeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RelitradeTests/Pods-RelitradeTests.release.xcconfig"; sourceTree = "<group>"; };
+		F756284F0391D33C96570D7B /* Pods-Relitrade.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Relitrade.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Relitrade/Pods-Relitrade.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48CF1479E256A832146052BE /* Pods_Relitrade.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +162,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79D93265F1D34EF88D753FF1 /* Pods_RelitradeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +170,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5756D76C37B786F3BC6063AB /* Pods_RelitradeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29355D521821B47536FD5DE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3647617A4427BA1F0A13FF49 /* Pods_Relitrade.framework */,
+				8A34D21CB5795C689CE9382F /* Pods_RelitradeTests.framework */,
+				8147BD0259267E9733E9D278 /* Pods_RelitradeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C609E40E6C43A56793527BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F756284F0391D33C96570D7B /* Pods-Relitrade.debug.xcconfig */,
+				4562FF3040C940350D93F0CE /* Pods-Relitrade.release.xcconfig */,
+				AD3601446C6A6F41A71FD066 /* Pods-RelitradeTests.debug.xcconfig */,
+				E7E98D63354DF09632CCA733 /* Pods-RelitradeTests.release.xcconfig */,
+				5886DEF7180E2D3F9B4BFB2B /* Pods-RelitradeUITests.debug.xcconfig */,
+				8BDAD7D0FA2503166F519C4C /* Pods-RelitradeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A453768E21D0F13600324D31 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +207,8 @@
 				A45376B121D0F14500324D31 /* RelitradeTests */,
 				A45376BC21D0F14500324D31 /* RelitradeUITests */,
 				A453769821D0F13600324D31 /* Products */,
+				6C609E40E6C43A56793527BC /* Pods */,
+				29355D521821B47536FD5DE7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,7 +225,8 @@
 		A453769921D0F13600324D31 /* Relitrade */ = {
 			isa = PBXGroup;
 			children = (
-				A45376CB21D0F15100324D31 /* New Group */,
+				A453770721D0FCDA00324D31 /* Additionals */,
+				A45376CB21D0F15100324D31 /* Modules */,
 				A453769A21D0F13600324D31 /* AppDelegate.swift */,
 				A453769E21D0F13600324D31 /* Main.storyboard */,
 				A45376A421D0F14400324D31 /* Assets.xcassets */,
@@ -126,11 +255,118 @@
 			path = RelitradeUITests;
 			sourceTree = "<group>";
 		};
-		A45376CB21D0F15100324D31 /* New Group */ = {
+		A45376CB21D0F15100324D31 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				A45376F221D0F2A000324D31 /* Protocols */,
+				A45376D121D0F19200324D31 /* Xibs */,
+				A45376D021D0F18400324D31 /* Views */,
+				A45376CF21D0F17600324D31 /* Routes */,
+				A45376CE21D0F16F00324D31 /* Presenter */,
+				A45376CD21D0F16800324D31 /* Entity */,
+				A45376CC21D0F16000324D31 /* Interactor */,
 			);
-			path = "New Group";
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A45376CC21D0F16000324D31 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A45376EA21D0F27D00324D31 /* HomeInteractor.swift */,
+				A45376EC21D0F28900324D31 /* PortfolioInteractor.swift */,
+				A45376EE21D0F29200324D31 /* ToolsInteractor.swift */,
+				A45376F021D0F29C00324D31 /* LocateUsInteractor.swift */,
+				A45376FB21D0F58600324D31 /* CommonWebInteractor.swift */,
+				A4CBCB2B21D22A8C00EF1C7B /* ForgotPassInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A45376CD21D0F16800324D31 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				A453770121D0FAD900324D31 /* HomeEntity.swift */,
+				05FEF36D21D13FCC0061DCCE /* LocateUsEntity.swift */,
+				A4CBCB2321D20ACC00EF1C7B /* PortfolioEntity.swift */,
+				A4CBCB2D21D23CB000EF1C7B /* ForgotPassEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		A45376CE21D0F16F00324D31 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A45376E221D0F24900324D31 /* HomePresenter.swift */,
+				A45376E421D0F25900324D31 /* ProtfolioPresenter.swift */,
+				A45376E621D0F26500324D31 /* ToolPresenter.swift */,
+				A45376E821D0F27000324D31 /* LocateUsPresenter.swift */,
+				A45376F921D0F56700324D31 /* CommonWebPresenter.swift */,
+				A4CBCB2921D22A6F00EF1C7B /* ForgotPassPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A45376CF21D0F17600324D31 /* Routes */ = {
+			isa = PBXGroup;
+			children = (
+				A45376DA21D0F20F00324D31 /* HomeRoute.swift */,
+				A45376DC21D0F21F00324D31 /* PortofolioRoute.swift */,
+				A45376DE21D0F22800324D31 /* ToolsRoute.swift */,
+				A45376E021D0F23600324D31 /* LocateUsRoute.swift */,
+				A45376F721D0F50E00324D31 /* CommonWebRoute.swift */,
+				A4CBCB2721D22A4800EF1C7B /* ForgotPassRoutes.swift */,
+			);
+			path = Routes;
+			sourceTree = "<group>";
+		};
+		A45376D021D0F18400324D31 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A45376D221D0F1A900324D31 /* HomeController.swift */,
+				A45376D421D0F1BB00324D31 /* PortfoloioLoginController.swift */,
+				A45376D621D0F1E500324D31 /* ToolsController.swift */,
+				A45376D821D0F20000324D31 /* LocateUsController.swift */,
+				A45376F521D0F4EB00324D31 /* CommonWebviewController.swift */,
+				A4CBCB2521D22A3300EF1C7B /* ForgotPassController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A45376D121D0F19200324D31 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				A45376FD21D0F7C100324D31 /* ConnectUsCell.xib */,
+				A45376FF21D0F91E00324D31 /* ConnectUsCell.swift */,
+				A453770321D0FC6400324D31 /* HomeCell.swift */,
+				A453770521D0FC7600324D31 /* HomeCell.xib */,
+				A453770E21D10A5F00324D31 /* HomeHeader.swift */,
+				A453771021D10D2B00324D31 /* HomeHeader.xib */,
+				A453771221D10E8200324D31 /* HeaderShareCell.xib */,
+				A453771421D10E9200324D31 /* HeaderShareCell.swift */,
+				05FEF36B21D13E7E0061DCCE /* LocateUsCell.swift */,
+				A4CBCB2F21D2566A00EF1C7B /* NavigationBarImage.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		A45376F221D0F2A000324D31 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A45376F321D0F2AD00324D31 /* Protocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A453770721D0FCDA00324D31 /* Additionals */ = {
+			isa = PBXGroup;
+			children = (
+				A453770821D0FCE800324D31 /* CardView.swift */,
+				A453770A21D0FEA600324D31 /* Enums.swift */,
+				A453770C21D1085A00324D31 /* Extensions.swift */,
+				05FEF36F21D1C8FE0061DCCE /* Network.swift */,
+				A4CBCB2121D1F43000EF1C7B /* Constants.swift */,
+			);
+			path = Additionals;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +376,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A45376C221D0F14500324D31 /* Build configuration list for PBXNativeTarget "Relitrade" */;
 			buildPhases = (
+				B7EB20DF1FDBBDDB3F75D252 /* [CP] Check Pods Manifest.lock */,
 				A453769321D0F13600324D31 /* Sources */,
 				A453769421D0F13600324D31 /* Frameworks */,
 				A453769521D0F13600324D31 /* Resources */,
+				77C44896ACCFE3A4D6BC655E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,6 +395,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A45376C521D0F14500324D31 /* Build configuration list for PBXNativeTarget "RelitradeTests" */;
 			buildPhases = (
+				C1417FE689F0309749351ED4 /* [CP] Check Pods Manifest.lock */,
 				A45376AA21D0F14500324D31 /* Sources */,
 				A45376AB21D0F14500324D31 /* Frameworks */,
 				A45376AC21D0F14500324D31 /* Resources */,
@@ -175,6 +414,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A45376C821D0F14500324D31 /* Build configuration list for PBXNativeTarget "RelitradeUITests" */;
 			buildPhases = (
+				342001223A277255F9DC38E0 /* [CP] Check Pods Manifest.lock */,
 				A45376B521D0F14500324D31 /* Sources */,
 				A45376B621D0F14500324D31 /* Frameworks */,
 				A45376B721D0F14500324D31 /* Resources */,
@@ -238,8 +478,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A45376A821D0F14500324D31 /* LaunchScreen.storyboard in Resources */,
+				A453771121D10D2B00324D31 /* HomeHeader.xib in Resources */,
 				A45376A521D0F14400324D31 /* Assets.xcassets in Resources */,
 				A45376A021D0F13600324D31 /* Main.storyboard in Resources */,
+				A45376FE21D0F7C100324D31 /* ConnectUsCell.xib in Resources */,
+				A453771321D10E8200324D31 /* HeaderShareCell.xib in Resources */,
+				A453770621D0FC7600324D31 /* HomeCell.xib in Resources */,
+				A4CBCB3021D2566A00EF1C7B /* NavigationBarImage.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,13 +504,147 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		342001223A277255F9DC38E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RelitradeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77C44896ACCFE3A4D6BC655E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Relitrade/Pods-Relitrade-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Relitrade/Pods-Relitrade-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7EB20DF1FDBBDDB3F75D252 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Relitrade-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1417FE689F0309749351ED4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RelitradeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A453769321D0F13600324D31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A45376F121D0F29C00324D31 /* LocateUsInteractor.swift in Sources */,
+				A453770921D0FCE800324D31 /* CardView.swift in Sources */,
+				A45376FC21D0F58600324D31 /* CommonWebInteractor.swift in Sources */,
+				A45376D521D0F1BB00324D31 /* PortfoloioLoginController.swift in Sources */,
+				A45376E521D0F25900324D31 /* ProtfolioPresenter.swift in Sources */,
 				A45376A321D0F13600324D31 /* Relitrade.xcdatamodeld in Sources */,
+				A4CBCB2E21D23CB000EF1C7B /* ForgotPassEntity.swift in Sources */,
+				A45376EB21D0F27D00324D31 /* HomeInteractor.swift in Sources */,
+				A4CBCB2821D22A4800EF1C7B /* ForgotPassRoutes.swift in Sources */,
+				A453770D21D1085A00324D31 /* Extensions.swift in Sources */,
+				A453770421D0FC6400324D31 /* HomeCell.swift in Sources */,
+				A45376E721D0F26500324D31 /* ToolPresenter.swift in Sources */,
+				05FEF37021D1C8FE0061DCCE /* Network.swift in Sources */,
 				A453769B21D0F13600324D31 /* AppDelegate.swift in Sources */,
+				A453770021D0F91E00324D31 /* ConnectUsCell.swift in Sources */,
+				A45376D321D0F1A900324D31 /* HomeController.swift in Sources */,
+				05FEF36C21D13E7E0061DCCE /* LocateUsCell.swift in Sources */,
+				A45376EF21D0F29200324D31 /* ToolsInteractor.swift in Sources */,
+				A45376F821D0F50E00324D31 /* CommonWebRoute.swift in Sources */,
+				A45376F421D0F2AD00324D31 /* Protocols.swift in Sources */,
+				A453770221D0FAD900324D31 /* HomeEntity.swift in Sources */,
+				A45376E921D0F27000324D31 /* LocateUsPresenter.swift in Sources */,
+				A45376DD21D0F21F00324D31 /* PortofolioRoute.swift in Sources */,
+				A453770B21D0FEA600324D31 /* Enums.swift in Sources */,
+				A45376D721D0F1E500324D31 /* ToolsController.swift in Sources */,
+				A4CBCB2A21D22A6F00EF1C7B /* ForgotPassPresenter.swift in Sources */,
+				A45376DB21D0F20F00324D31 /* HomeRoute.swift in Sources */,
+				A45376F621D0F4EB00324D31 /* CommonWebviewController.swift in Sources */,
+				A4CBCB2221D1F43000EF1C7B /* Constants.swift in Sources */,
+				A453771521D10E9200324D31 /* HeaderShareCell.swift in Sources */,
+				A4CBCB2421D20ACC00EF1C7B /* PortfolioEntity.swift in Sources */,
+				A45376FA21D0F56700324D31 /* CommonWebPresenter.swift in Sources */,
+				A45376E121D0F23600324D31 /* LocateUsRoute.swift in Sources */,
+				A4CBCB2C21D22A8C00EF1C7B /* ForgotPassInteractor.swift in Sources */,
+				A453770F21D10A5F00324D31 /* HomeHeader.swift in Sources */,
+				05FEF36E21D13FCC0061DCCE /* LocateUsEntity.swift in Sources */,
+				A45376DF21D0F22800324D31 /* ToolsRoute.swift in Sources */,
+				A45376ED21D0F28900324D31 /* PortfolioInteractor.swift in Sources */,
+				A45376D921D0F20000324D31 /* LocateUsController.swift in Sources */,
+				A4CBCB2621D22A3300EF1C7B /* ForgotPassController.swift in Sources */,
+				A45376E321D0F24900324D31 /* HomePresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +817,7 @@
 		};
 		A45376C321D0F14500324D31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F756284F0391D33C96570D7B /* Pods-Relitrade.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -455,6 +835,7 @@
 		};
 		A45376C421D0F14500324D31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4562FF3040C940350D93F0CE /* Pods-Relitrade.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +853,7 @@
 		};
 		A45376C621D0F14500324D31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD3601446C6A6F41A71FD066 /* Pods-RelitradeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +874,7 @@
 		};
 		A45376C721D0F14500324D31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7E98D63354DF09632CCA733 /* Pods-RelitradeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +895,7 @@
 		};
 		A45376C921D0F14500324D31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5886DEF7180E2D3F9B4BFB2B /* Pods-RelitradeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +915,7 @@
 		};
 		A45376CA21D0F14500324D31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BDAD7D0FA2503166F519C4C /* Pods-RelitradeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

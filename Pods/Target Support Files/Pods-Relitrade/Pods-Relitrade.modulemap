@@ -1,0 +1,6 @@
+framework module Pods_Relitrade {
+  umbrella header "Pods-Relitrade-umbrella.h"
+
+  export *
+  module * { export * }
+}

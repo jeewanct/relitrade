@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeHeader" id="cdN-y4-3ZL" customClass="HomeHeader" customModule="Relitrade" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="527" height="129"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="headerImage" translatesAutoresizingMaskIntoConstraints="NO" id="YkQ-fm-t9D">
+                    <rect key="frame" x="0.0" y="0.0" width="527" height="128"/>
+                </imageView>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="fVo-TO-gUi">
+                    <rect key="frame" x="0.0" y="0.0" width="527" height="129"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="Ctk-fZ-Qjf">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="rvS-qa-eLo" firstAttribute="trailing" secondItem="fVo-TO-gUi" secondAttribute="trailing" id="FJG-be-hFg"/>
+                <constraint firstItem="fVo-TO-gUi" firstAttribute="top" secondItem="rvS-qa-eLo" secondAttribute="top" id="I0J-NA-bOn"/>
+                <constraint firstItem="YkQ-fm-t9D" firstAttribute="leading" secondItem="rvS-qa-eLo" secondAttribute="leading" id="Suk-b0-hmG"/>
+                <constraint firstItem="YkQ-fm-t9D" firstAttribute="top" secondItem="rvS-qa-eLo" secondAttribute="top" id="VTP-EP-Bya"/>
+                <constraint firstItem="fVo-TO-gUi" firstAttribute="leading" secondItem="rvS-qa-eLo" secondAttribute="leading" id="Vts-2e-RDh"/>
+                <constraint firstItem="rvS-qa-eLo" firstAttribute="trailing" secondItem="YkQ-fm-t9D" secondAttribute="trailing" id="brZ-gB-RxX"/>
+                <constraint firstItem="rvS-qa-eLo" firstAttribute="bottom" secondItem="fVo-TO-gUi" secondAttribute="bottom" id="nxb-7w-9vJ"/>
+                <constraint firstItem="rvS-qa-eLo" firstAttribute="bottom" secondItem="YkQ-fm-t9D" secondAttribute="bottom" constant="1" id="zMz-HF-OU9"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="rvS-qa-eLo"/>
+            <connections>
+                <outlet property="collectionView" destination="fVo-TO-gUi" id="SsI-SC-ltO"/>
+            </connections>
+            <point key="canvasLocation" x="263.19999999999999" y="107.49625187406298"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="headerImage" width="640" height="162"/>
+    </resources>
+</document>
