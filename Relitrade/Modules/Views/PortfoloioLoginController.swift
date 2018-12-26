@@ -73,6 +73,8 @@ class PortfolioLoginController: UIViewController {
     }
     
     func gotToPin(){
+        UserDefaults.standard.setValue(userId.text, forKey: "userName")
+        UserDefaults.standard.setValue(password.text, forKey: "password")
         let pinController = HomeRoute.mainstoryboard.instantiateViewController(withIdentifier: "PinController") as! PinController
         self.present(pinController, animated: true, completion: nil)
     }
@@ -84,9 +86,10 @@ extension PortfolioLoginController: PresenterToViewProtocol {
     func showData<T>(data: T) {
         if let value = data as? Bool{
             if value{
-                UserDefaults.standard.setValue(userId.text, forKey: "userName")
-                UserDefaults.standard.setValue(password.text, forKey: "password")
                 
+                DispatchQueue.main.async {
+                    self.gotToPin()
+                }
                 
             }else{
                 self.showAlert(title: AlertsMessage.invalidCredentials.rawValue)
