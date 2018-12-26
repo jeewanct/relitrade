@@ -17,10 +17,10 @@ class LocateUsInteractor: PresentorToInterectorProtocol{
         let locateData = LocateUsEntity()
         
         let locateDetails = [
-            HomeDetailsEntity(image: #imageLiteral(resourceName: "homeImage"), text: LocateUsEnum.address.rawValue),
-            HomeDetailsEntity(image: #imageLiteral(resourceName: "homeImage"), text: LocateUsEnum.phoneNumber.rawValue),
-            HomeDetailsEntity(image: #imageLiteral(resourceName: "homeImage"), text: LocateUsEnum.email.rawValue),
-            HomeDetailsEntity(image: #imageLiteral(resourceName: "homeImage"), text: LocateUsEnum.wesite.rawValue)
+            HomeDetailsEntity(image: #imageLiteral(resourceName: "homeImage"), text: LocateUsEnum.address.rawValue, type: HomeOptionsEnum.about),
+            HomeDetailsEntity(image: #imageLiteral(resourceName: "homeImage"), text: LocateUsEnum.phoneNumber.rawValue, type: HomeOptionsEnum.about),
+            HomeDetailsEntity(image: #imageLiteral(resourceName: "homeImage"), text: LocateUsEnum.email.rawValue, type: HomeOptionsEnum.about),
+            HomeDetailsEntity(image: #imageLiteral(resourceName: "homeImage"), text: LocateUsEnum.wesite.rawValue, type: HomeOptionsEnum.about)
         ]
         
         locateData.companyDetails = locateDetails

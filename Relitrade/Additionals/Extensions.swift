@@ -9,6 +9,7 @@
 import UIKit
 import WebKit
 
+
 extension UINavigationController{
     
     func whiteBackground(){
@@ -57,6 +58,21 @@ extension APIRequest {
         request.addValue("application/json", forHTTPHeaderField: "Accept")
         return request
     }
+    
+    func requestWithXml(with baseUrl: URL) -> URLRequest{
+        var xmlStr: String = Constants.HomeUrl.stockXmlBody
+        
+        var request = URLRequest(url: baseUrl)
+        request.httpMethod = method.rawValue
+        request.setValue("application/soap+xml", forHTTPHeaderField: "Content-Type")
+        request.httpBody = Data(xmlStr.utf8)
+        
+        return request
+        
+        
+    }
+    
+    
 }
 
 extension UIButton{
@@ -102,6 +118,18 @@ extension UITextField{
         return false
     }
     
+    var isEmail: Bool{
+        let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
+        let emailTest = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
+        return emailTest.evaluate(with: self.text)
+    }
+    
+    var isNumber: Bool{
+        if self.text!.count < 9 {
+            return false
+        }
+        return true
+    }
 }
 
 
@@ -114,6 +142,11 @@ extension UIViewController{
         alertController.addAction(alertAction)
         self.present(alertController, animated: true, completion: nil)
         
+    }
+    
+    func shareItems(items: [String]){
+        let ac = UIActivityViewController(activityItems: items, applicationActivities: nil)
+        self.present(ac, animated: true)
     }
 }
 

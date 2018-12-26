@@ -1,15 +1,15 @@
 //
-//  RegisterPresenter.swift
+//  FutureCalculatorPresenter.swift
 //  Relitrade
 //
-//  Created by Deven on 12/25/18.
+//  Created by Vaibhav Nath on 26/12/18.
 //  Copyright © 2018 investwell. All rights reserved.
 //
 
 import Foundation
 
-class RegisterPresenter: ViewToPresenterProtocol {
-
+class FutureCalculatorPresenter: ViewToPresenterProtocol {
+    
     var view: PresenterToViewProtocol?
     var interector: PresentorToInterectorProtocol?
     var router: PresenterToRouterProtocol?
@@ -17,16 +17,14 @@ class RegisterPresenter: ViewToPresenterProtocol {
     func updateView() {
         
     }
-    var responseMessage = ""
     
     func updateView<T>(data: T) {
         interector?.fetchData(data: data)
     }
 }
 
-extension RegisterPresenter: InterectorToPresenterProtocol {
+extension FutureCalculatorPresenter: InterectorToPresenterProtocol {
     func dataFetched<T>(news: T) {
-        
         view?.showData(data: news)
     }
     

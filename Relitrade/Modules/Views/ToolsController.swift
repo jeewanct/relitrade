@@ -54,6 +54,23 @@ extension ToolsController: UICollectionViewDelegateFlowLayout{
     }
 }
 
+extension ToolsController{
+    
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        switch indexPath.item {
+        case 2:
+            let calculateFuture = FutureCalculatorRoute.createModule()
+            navigationController?.pushViewController(calculateFuture, animated: true)
+        default:
+            let webview = CommonWebRoute.createModule() as? CommonWebviewController
+            webview?.backTitle = toolsItems?[indexPath.item].optionLabel
+            webview?.webType = toolsItems?[indexPath.item].type
+            navigationController?.pushViewController(webview ?? UIViewController(), animated: true)
+            
+        }
+    }
+}
+
 extension ToolsController: PresenterToViewProtocol {
     
     func showData<T>(data: T) {

@@ -12,6 +12,12 @@ class HomeHeader: UICollectionReusableView{
     
     @IBOutlet weak var collectionView: UICollectionView!
     
+    var stockValue: [HomeShareEntity]?{
+        didSet{
+            collectionView.reloadData()
+        }
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         setup()
@@ -37,6 +43,9 @@ extension HomeHeader: UICollectionViewDataSource, UICollectionViewDelegateFlowLa
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "HeaderShareCell", for: indexPath) as! HeaderShareCell
+        if let shareData = stockValue{
+            cell.stockValue = shareData[indexPath.item]
+        }
         return cell
     }
     

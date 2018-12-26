@@ -22,7 +22,6 @@ class HomeController: UIViewController {
         super.viewDidLoad()
         setup()
         presenter?.updateView()
-        getData()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -62,6 +61,7 @@ extension HomeController: UICollectionViewDataSource, UICollectionViewDelegateFl
            return UICollectionReusableView()
         }
         let view = collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: "HomeHeader", for: indexPath) as! HomeHeader
+        view.stockValue = homeDetails?.stockValue
         return view
     }
     
@@ -193,9 +193,7 @@ extension HomeController: MFMessageComposeViewControllerDelegate, MFMailComposeV
     }
     
     func share(){
-        let items = ["This app is my favorite"]
-        let ac = UIActivityViewController(activityItems: items, applicationActivities: nil)
-        present(ac, animated: true)
+        self.shareItems(items: ["This is sharing info"])
     }
     
     func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
@@ -207,12 +205,18 @@ extension HomeController: MFMessageComposeViewControllerDelegate, MFMailComposeV
 extension HomeController: PresenterToViewProtocol {
     func showData<T>(data: T) {
         
-        if let homeData = data as? HomeEntity{
-            connectCollectionView.backgroundColor = homeData.connectBackground
-            homeDetails = homeData
-            homeCollectionView.reloadData()
-            connectCollectionView.reloadData()
-        }
+        
+            if let homeData = data as? HomeEntity{
+                
+                homeDetails = homeData
+                DispatchQueue.main.async {
+                self.homeCollectionView.reloadData()
+                self.connectCollectionView.reloadData()
+                self.connectCollectionView.backgroundColor = homeData.connectBackground
+                
+                }
+            }
+        
     }
     
     func showError() {
@@ -221,20 +225,3 @@ extension HomeController: PresenterToViewProtocol {
     
 }
 
-
-extension HomeController{
-    
-    func getData(){
-        let data = XMLParser(contentsOf: URL(string: "http://ws.my-portfolio.in/IWService.asmx?op=GetIndex")!)
-        data?.delegate = self
-    }
-    
-    
-}
-
-extension HomeController: XMLParserDelegate{
-    
-    func parser(_ parser: XMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String : String] = [:]) {
-        
-    }
-}

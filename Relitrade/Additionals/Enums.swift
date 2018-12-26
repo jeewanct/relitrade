@@ -60,12 +60,17 @@ enum NetworkError: String{
     case noInternet = "You are offline."
     case invalidUrl = "Seems your url is invlaid."
     case parsingError = "Json Decoder fail to decode."
+    case unkown = "Something went wrong"
     
 }
 
 enum AlertsMessage: String{
     case fieldRequired = "All fieds are required."
     case invalidCredentials = "Invalid credentials!"
+    case emailInvalid = "Email address is invalid!"
+    case phoneInvalid = "phone Number is invalid!"
+    case fieldRequireds = "field is required."
+    case registered = "Wolla you are now registerd with us."
 }
 
 
@@ -85,6 +90,13 @@ enum ToolsEnum: String{
     
     
     
+}
+
+
+enum FutureValueCalculateEnum: String{
+    case monthlySip = "You will need to make a monthly SIP of: "
+    case totalInvestment = "Total investment: "
+    case appreciation = "Appreciation: "
 }
 
 public enum RequestType: String {

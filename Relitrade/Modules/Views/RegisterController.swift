@@ -18,6 +18,7 @@ class RegisterController: UIViewController{
     
     @IBOutlet weak var phoneText: UITextField!
     
+    @IBOutlet weak var registerButton: UIButton!
     
     
     override func viewDidLoad() {
@@ -33,12 +34,29 @@ class RegisterController: UIViewController{
     
     @IBAction func handleRegister(_ sender: Any) {
         
+        
+        if userNameText.isEmpty{
+            self.showAlert(title: "User Name" + AlertsMessage.fieldRequireds.rawValue)
+        }else if !emailText.isEmail{
+            self.showAlert(title: AlertsMessage.emailInvalid.rawValue)
+        }else if !phoneText.isNumber{
+            self.showAlert(title: AlertsMessage.phoneInvalid.rawValue)
+        }else{
+            if let userName = userNameText.text, let email = emailText.text, let phone = phoneText.text{
+                registerButton.showIndicator()
+                let register = Constants.LoginUrl.registerUser + "\(Constants.bid)&name=\(userName)&mobile=\(phone)&email=\(email)"
+                presenter?.updateView(data: register)
+            }
+            
+        }
+        
     }
     
     
     @IBAction func handleBack(_ sender: Any) {
         
         self.navigationController?.popViewController(animated: true)
+    
     }
     
     @IBAction func handleHome(_ sender: Any) {
@@ -58,10 +76,15 @@ extension RegisterController: PresenterToViewProtocol {
     func showData<T>(data: T) {
         if let message = data as? String{
             DispatchQueue.main.async {
-                self.showAlert(title: message)
+                self.registerButton.hideIndicator(title: "Register")
+                if message == "Y"{
+                    self.showAlert(title: AlertsMessage.registered.rawValue)
+                    self.handleReset("")
+                }else{
+                    self.showAlert(title: NetworkError.unkown.rawValue)
+                }
             }
-            
-            
+
         }
     }
     

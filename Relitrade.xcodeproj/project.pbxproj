@@ -57,6 +57,14 @@
 		A453771121D10D2B00324D31 /* HomeHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = A453771021D10D2B00324D31 /* HomeHeader.xib */; };
 		A453771321D10E8200324D31 /* HeaderShareCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A453771221D10E8200324D31 /* HeaderShareCell.xib */; };
 		A453771521D10E9200324D31 /* HeaderShareCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A453771421D10E9200324D31 /* HeaderShareCell.swift */; };
+		A4C45AA821D3495600D44052 /* FutureValueCalculatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C45AA721D3495600D44052 /* FutureValueCalculatorController.swift */; };
+		A4C45AAA21D3499D00D44052 /* FutureCalculatorRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C45AA921D3499D00D44052 /* FutureCalculatorRoute.swift */; };
+		A4C45AAC21D349AC00D44052 /* FutureCalculatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C45AAB21D349AC00D44052 /* FutureCalculatorPresenter.swift */; };
+		A4C45AAE21D349CF00D44052 /* FutureCalculatorInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C45AAD21D349CF00D44052 /* FutureCalculatorInteractor.swift */; };
+		A4C45AB021D34BC400D44052 /* FutureCalculatorEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C45AAF21D34BC400D44052 /* FutureCalculatorEntity.swift */; };
+		A4C45AB221D390CA00D44052 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C45AB121D390CA00D44052 /* Helper.swift */; };
+		A4C45AB421D3AFA600D44052 /* PinController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C45AB321D3AFA600D44052 /* PinController.swift */; };
+		A4C45AB621D3B02600D44052 /* PinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C45AB521D3B02600D44052 /* PinCell.swift */; };
 		A4CBCB2221D1F43000EF1C7B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CBCB2121D1F43000EF1C7B /* Constants.swift */; };
 		A4CBCB2421D20ACC00EF1C7B /* PortfolioEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CBCB2321D20ACC00EF1C7B /* PortfolioEntity.swift */; };
 		A4CBCB2621D22A3300EF1C7B /* ForgotPassController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CBCB2521D22A3300EF1C7B /* ForgotPassController.swift */; };
@@ -144,6 +152,14 @@
 		A453771021D10D2B00324D31 /* HomeHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeHeader.xib; sourceTree = "<group>"; };
 		A453771221D10E8200324D31 /* HeaderShareCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderShareCell.xib; sourceTree = "<group>"; };
 		A453771421D10E9200324D31 /* HeaderShareCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderShareCell.swift; sourceTree = "<group>"; };
+		A4C45AA721D3495600D44052 /* FutureValueCalculatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureValueCalculatorController.swift; sourceTree = "<group>"; };
+		A4C45AA921D3499D00D44052 /* FutureCalculatorRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureCalculatorRoute.swift; sourceTree = "<group>"; };
+		A4C45AAB21D349AC00D44052 /* FutureCalculatorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureCalculatorPresenter.swift; sourceTree = "<group>"; };
+		A4C45AAD21D349CF00D44052 /* FutureCalculatorInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureCalculatorInteractor.swift; sourceTree = "<group>"; };
+		A4C45AAF21D34BC400D44052 /* FutureCalculatorEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureCalculatorEntity.swift; sourceTree = "<group>"; };
+		A4C45AB121D390CA00D44052 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		A4C45AB321D3AFA600D44052 /* PinController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinController.swift; sourceTree = "<group>"; };
+		A4C45AB521D3B02600D44052 /* PinCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCell.swift; sourceTree = "<group>"; };
 		A4CBCB2121D1F43000EF1C7B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A4CBCB2321D20ACC00EF1C7B /* PortfolioEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioEntity.swift; sourceTree = "<group>"; };
 		A4CBCB2521D22A3300EF1C7B /* ForgotPassController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassController.swift; sourceTree = "<group>"; };
@@ -287,6 +303,7 @@
 				A45376FB21D0F58600324D31 /* CommonWebInteractor.swift */,
 				A4CBCB2B21D22A8C00EF1C7B /* ForgotPassInteractor.swift */,
 				05FEF37721D289220061DCCE /* RegisterInteractor.swift */,
+				A4C45AAD21D349CF00D44052 /* FutureCalculatorInteractor.swift */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
@@ -298,6 +315,7 @@
 				05FEF36D21D13FCC0061DCCE /* LocateUsEntity.swift */,
 				A4CBCB2321D20ACC00EF1C7B /* PortfolioEntity.swift */,
 				A4CBCB2D21D23CB000EF1C7B /* ForgotPassEntity.swift */,
+				A4C45AAF21D34BC400D44052 /* FutureCalculatorEntity.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -312,6 +330,7 @@
 				A45376F921D0F56700324D31 /* CommonWebPresenter.swift */,
 				A4CBCB2921D22A6F00EF1C7B /* ForgotPassPresenter.swift */,
 				05FEF37521D288F50061DCCE /* RegisterPresenter.swift */,
+				A4C45AAB21D349AC00D44052 /* FutureCalculatorPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -326,6 +345,7 @@
 				A45376F721D0F50E00324D31 /* CommonWebRoute.swift */,
 				A4CBCB2721D22A4800EF1C7B /* ForgotPassRoutes.swift */,
 				05FEF37321D288AA0061DCCE /* RegisterRoute.swift */,
+				A4C45AA921D3499D00D44052 /* FutureCalculatorRoute.swift */,
 			);
 			path = Routes;
 			sourceTree = "<group>";
@@ -340,6 +360,8 @@
 				A45376F521D0F4EB00324D31 /* CommonWebviewController.swift */,
 				A4CBCB2521D22A3300EF1C7B /* ForgotPassController.swift */,
 				05FEF37121D288560061DCCE /* RegisterController.swift */,
+				A4C45AA721D3495600D44052 /* FutureValueCalculatorController.swift */,
+				A4C45AB321D3AFA600D44052 /* PinController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -357,6 +379,7 @@
 				A453771421D10E9200324D31 /* HeaderShareCell.swift */,
 				05FEF36B21D13E7E0061DCCE /* LocateUsCell.swift */,
 				A4CBCB2F21D2566A00EF1C7B /* NavigationBarImage.xib */,
+				A4C45AB521D3B02600D44052 /* PinCell.swift */,
 			);
 			path = Xibs;
 			sourceTree = "<group>";
@@ -377,6 +400,7 @@
 				A453770C21D1085A00324D31 /* Extensions.swift */,
 				05FEF36F21D1C8FE0061DCCE /* Network.swift */,
 				A4CBCB2121D1F43000EF1C7B /* Constants.swift */,
+				A4C45AB121D390CA00D44052 /* Helper.swift */,
 			);
 			path = Additionals;
 			sourceTree = "<group>";
@@ -620,22 +644,29 @@
 				A453770921D0FCE800324D31 /* CardView.swift in Sources */,
 				A45376FC21D0F58600324D31 /* CommonWebInteractor.swift in Sources */,
 				05FEF37621D288F50061DCCE /* RegisterPresenter.swift in Sources */,
+				A4C45AAA21D3499D00D44052 /* FutureCalculatorRoute.swift in Sources */,
 				A45376D521D0F1BB00324D31 /* PortfoloioLoginController.swift in Sources */,
 				A45376E521D0F25900324D31 /* ProtfolioPresenter.swift in Sources */,
 				A45376A321D0F13600324D31 /* Relitrade.xcdatamodeld in Sources */,
+				A4C45AB221D390CA00D44052 /* Helper.swift in Sources */,
 				A4CBCB2E21D23CB000EF1C7B /* ForgotPassEntity.swift in Sources */,
 				A45376EB21D0F27D00324D31 /* HomeInteractor.swift in Sources */,
 				A4CBCB2821D22A4800EF1C7B /* ForgotPassRoutes.swift in Sources */,
 				A453770D21D1085A00324D31 /* Extensions.swift in Sources */,
+				A4C45AB621D3B02600D44052 /* PinCell.swift in Sources */,
 				A453770421D0FC6400324D31 /* HomeCell.swift in Sources */,
+				A4C45AA821D3495600D44052 /* FutureValueCalculatorController.swift in Sources */,
 				A45376E721D0F26500324D31 /* ToolPresenter.swift in Sources */,
 				05FEF37021D1C8FE0061DCCE /* Network.swift in Sources */,
 				A453769B21D0F13600324D31 /* AppDelegate.swift in Sources */,
+				A4C45AB021D34BC400D44052 /* FutureCalculatorEntity.swift in Sources */,
+				A4C45AAE21D349CF00D44052 /* FutureCalculatorInteractor.swift in Sources */,
 				A453770021D0F91E00324D31 /* ConnectUsCell.swift in Sources */,
 				A45376D321D0F1A900324D31 /* HomeController.swift in Sources */,
 				05FEF36C21D13E7E0061DCCE /* LocateUsCell.swift in Sources */,
 				A45376EF21D0F29200324D31 /* ToolsInteractor.swift in Sources */,
 				A45376F821D0F50E00324D31 /* CommonWebRoute.swift in Sources */,
+				A4C45AB421D3AFA600D44052 /* PinController.swift in Sources */,
 				A45376F421D0F2AD00324D31 /* Protocols.swift in Sources */,
 				A453770221D0FAD900324D31 /* HomeEntity.swift in Sources */,
 				A45376E921D0F27000324D31 /* LocateUsPresenter.swift in Sources */,
@@ -653,6 +684,7 @@
 				A4CBCB2C21D22A8C00EF1C7B /* ForgotPassInteractor.swift in Sources */,
 				A453770F21D10A5F00324D31 /* HomeHeader.swift in Sources */,
 				05FEF37821D289220061DCCE /* RegisterInteractor.swift in Sources */,
+				A4C45AAC21D349AC00D44052 /* FutureCalculatorPresenter.swift in Sources */,
 				05FEF36E21D13FCC0061DCCE /* LocateUsEntity.swift in Sources */,
 				A45376DF21D0F22800324D31 /* ToolsRoute.swift in Sources */,
 				A45376ED21D0F28900324D31 /* PortfolioInteractor.swift in Sources */,
